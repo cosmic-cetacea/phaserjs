@@ -1,4 +1,5 @@
 import Phaser from 'phaser';
-import gameConfig from './scenes/gameConfig.js';
+import GameConfig from './scenes/GameConfig.js';
 
-let game = new Phaser.Game(gameConfig);
+let game = new Phaser.Game(GameConfig);
+// window.game = game;
